@@ -1,5 +1,9 @@
 package Persistencia;
 
+import Entidad.Vehiculo;
+
+import java.util.List;
+
 public class VehiculoDao extends Dao{
     public List<Vehiculo> getVehiculo() throws Exception {
         try {
