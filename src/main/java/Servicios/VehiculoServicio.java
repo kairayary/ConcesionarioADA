@@ -30,8 +30,8 @@ public class VehiculoServicio {
                 System.out.printf("%-10s%-15s%-15s%-20s\n","ID","MARCA", "MODELO", "COLOR", "STOCK_DISPONIBLE");
 
                 for (Vehiculo vehiculos : vehiculo) {
-                    System.out.printf("%-10s%-15s%-15s%-20s\n", vehiculo.getId(),
-                            vehiculo.getMarca(), vehiculo.getModelo(), vehiculo.getColor(), vehiculo.getStock_disponible());
+                    System.out.printf("%-10s%-15s%-15s%-20s\n",
+                            vehiculos.getMarca(), vehiculos.getModelo(), vehiculos.getColor(), vehiculos.getStock_disponible());
                 }
             }
         }catch (Exception e){

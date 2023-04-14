@@ -57,4 +57,7 @@ public class Vehiculo {
                 ", stock_disponible=" + stock_disponible +
                 '}';
     }
+
+    public void setId(int anInt) {
+    }
 }
